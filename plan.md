@@ -23,9 +23,9 @@
 
 ### PlayerView - A page that lists all the players in the leage
 
-- [ ] use useEffect to fetch the list of players
-- [ ] use useState to define the players variable
-- [ ] `return(<PlayerList />)`
+- [x] use useEffect to fetch the list of players
+- [x] use useState to define the players variable
+- [x] `return(<PlayerList />)`
 
 ### PlayerInd - A page that renders details about a single player
 
@@ -45,7 +45,7 @@
 
 ### PlayerList - Renders all the players
 
-- [ ] use a .map to render links for each player
+- [x] use a .map to render links for each player
 
 ### PlayerDetail - Renders details about each player
 

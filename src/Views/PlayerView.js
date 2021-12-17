@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+import PlayerList from '../Components/PlayerList';
 import { fetchPlayers } from '../services/players';
 
 export default function PlayerView() {
@@ -15,7 +16,7 @@ export default function PlayerView() {
 
   return (
     <div>
-      <PlayerView players={players} />
+      <PlayerList players={players} />
     </div>
   );
 }
