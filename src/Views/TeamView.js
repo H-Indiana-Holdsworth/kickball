@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { fetchTeams } from '../services/teams';
+import TeamList from '../Components/TeamList';
 
 export default function TeamView() {
   const [teams, setTeams] = useState([]);
@@ -12,5 +13,9 @@ export default function TeamView() {
     };
     fetchData();
   }, []);
-  return <div></div>;
+  return (
+    <div>
+      <TeamList teams={teams} />
+    </div>
+  );
 }
