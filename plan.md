@@ -41,7 +41,7 @@
 
 ### TeamDetail - Renders team info and players in the team
 
-- [ ] .map to render links for each player in the corresponding team
+- [x] .map to render links for each player in the corresponding team
 
 ### PlayerList - Renders all the players
 
@@ -56,9 +56,9 @@
 ### teams.js
 
 - [x] make api call using fetchTeams to get all teams
-- [ ] make api call using fetchTeamById to get a specific team
+- [x] make api call using fetchTeamById to get a specific team
 
 ### players.js
 
-- [ ] make api call using fetchPlayers to get all players
-- [ ] make api call using fetchPlayerById to get a specific player
+- [x] make api call using fetchPlayers to get all players
+- [x] make api call using fetchPlayerById to get a specific player
