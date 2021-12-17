@@ -3,16 +3,20 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom/cjs/react-router-
 import { NavLink } from 'react-router-dom';
 import TeamView from './Views/TeamView';
 import TeamInd from './Views/TeamInd';
+import PlayerView from './Views/PlayerView';
+import PlayerInd from './Views/PlayerInd';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <NavLink to="/teams">Teams</NavLink>
+        <NavLink to="/players">Players</NavLink>
         <Switch>
           <Route exact path="/teams" component={TeamView} />
-
           <Route exact path="/teams/:id" component={TeamInd} />
+          <Route exact path="/players" component={PlayerView} />
+          <Route exact path="/players/:id" component={PlayerInd} />
         </Switch>
       </BrowserRouter>
     </div>

@@ -4,8 +4,8 @@
 
 - [x] `<Route exact path=/teams component={TeamView} />`
 - [x] `<Route exact path=/teams/:id component={TeamInd} />`
-- [ ] `<Route exact path=/players component={PlayerView} /> `
-- [ ] `<Route exact path=/players/:id component={PlayerDetail} />`
+- [x] `<Route exact path=/players component={PlayerView} /> `
+- [x] `<Route exact path=/players/:id component={PlayerDetail} />`
 
 ## Views - has state
 

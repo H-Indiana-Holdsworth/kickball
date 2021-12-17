@@ -13,6 +13,7 @@ export default function TeamView() {
     };
     fetchData();
   }, []);
+
   return (
     <div>
       <TeamList teams={teams} />
