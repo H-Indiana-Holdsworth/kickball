@@ -3,7 +3,7 @@
 ## App.js
 
 - [x] `<Route exact path=/teams component={TeamView} />`
-- [ ] `<Route exact path=/teams/:id component={TeamInd} />`
+- [x] `<Route exact path=/teams/:id component={TeamInd} />`
 - [ ] `<Route exact path=/players component={PlayerView} /> `
 - [ ] `<Route exact path=/players/:id component={PlayerDetail} />`
 
