@@ -29,9 +29,9 @@
 
 ### PlayerInd - A page that renders details about a single player
 
-- [ ] use useEffect to fetchPlayerById
-- [ ] use useState to define individual player variable
-- [ ] `return(<PlayerDetail />)`
+- [x] use useEffect to fetchPlayerById
+- [x] use useState to define individual player variable
+- [x] `return(<PlayerDetail />)`
 
 ## Components - has no state
 
@@ -49,7 +49,7 @@
 
 ### PlayerDetail - Renders details about each player
 
-- [ ] uses .map to render details for a single player such as name and position
+- [x] renders details for a single player such as name and position
 
 ## Services
 

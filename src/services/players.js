@@ -12,6 +12,6 @@ export async function fetchPlayers() {
 }
 
 export async function getPlayerById(id) {
-  const resp = await client.from('players').select(`*, players (*)`).match({ id }).single();
+  const resp = await client.from('players').select(`*`).match({ id }).single();
   return checkError(resp);
 }
