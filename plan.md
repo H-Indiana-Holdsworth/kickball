@@ -2,7 +2,7 @@
 
 ## App.js
 
-- [ ] `<Route exact path=/teams component={TeamView} />`
+- [x] `<Route exact path=/teams component={TeamView} />`
 - [ ] `<Route exact path=/teams/:id component={TeamInd} />`
 - [ ] `<Route exact path=/players component={PlayerView} /> `
 - [ ] `<Route exact path=/players/:id component={PlayerDetail} />`
@@ -55,7 +55,7 @@
 
 ### teams.js
 
-- [ ] make api call using fetchTeams to get all teams
+- [x] make api call using fetchTeams to get all teams
 - [ ] make api call using fetchTeamById to get a specific team
 
 ### players.js
