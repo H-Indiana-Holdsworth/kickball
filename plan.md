@@ -11,15 +11,15 @@
 
 ### TeamView - A page that lists all the teams in the league
 
-- [ ] use useEffect to fetchTeams the list of teams
-- [ ] use useState to define the teams variable
-- [ ] `returns(<TeamList />)`
+- [x] use useEffect to fetchTeams the list of teams
+- [x] use useState to define the teams variable
+- [x] `returns(<TeamList />)`
 
 ### TeamInd - A page that shows the details for a single team, such as their name and logo and players
 
-- [ ] use useEffect to fetchTeamById
-- [ ] use useState to define teamInd variable
-- [ ] `return(<TeamDetail />)`
+- [x] use useEffect to fetchTeamById
+- [x] use useState to define teamInd variable
+- [x] `return(<TeamDetail />)`
 
 ### PlayerView - A page that lists all the players in the leage
 
@@ -37,7 +37,7 @@
 
 ### TeamList - Renders all the teams
 
-- [ ] use a .map to render links for each team
+- [x] use a .map to render links for each team
 
 ### TeamDetail - Renders team info and players in the team
 
