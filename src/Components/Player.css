@@ -1,0 +1,15 @@
+body {
+  background-color: peachpuff;
+  color: royalblue;
+  font-size: 2rem;
+}
+
+.player-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-ind {
+  display: flex;
+  flex-direction: column;
+}

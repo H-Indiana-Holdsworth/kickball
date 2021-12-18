@@ -1,0 +1,14 @@
+body {
+  background-color: peachpuff;
+  color: royalblue;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-ind {
+  display: flex;
+  flex-direction: column;
+}
