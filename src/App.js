@@ -10,8 +10,12 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <NavLink to="/teams">Teams</NavLink>
-        <NavLink to="/players">Players</NavLink>
+        <p>
+          <NavLink to="/teams">Teams</NavLink>
+        </p>
+        <p>
+          <NavLink to="/players">Players</NavLink>
+        </p>
         <Switch>
           <Route exact path="/teams" component={TeamView} />
           <Route exact path="/teams/:id" component={TeamInd} />

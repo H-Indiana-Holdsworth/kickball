@@ -1,0 +1,14 @@
+body {
+  background-color: peachpuff;
+  color: royalblue;
+}
+
+.player-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-ind {
+  display: flex;
+  flex-direction: column;
+}

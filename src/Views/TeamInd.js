@@ -23,9 +23,10 @@ export default function TeamInd(props) {
 
   return (
     <div>
-      <p>{teamInd.name}</p>
-      <p>{teamInd.city}</p>
-      <p>{teamInd.state}</p>
+      <p>Team Name: {teamInd.name}</p>
+      <p>City: {teamInd.city}</p>
+      <p>State: {teamInd.state}</p>
+      Players
       <TeamDetail teamInd={teamInd} />
     </div>
   );
